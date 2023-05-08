@@ -1,0 +1,47 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+body
+{
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  background: #607d8b;
+}
+:root{
+  --app-bg-color: #fff;
+  --app-primary-color: #3f51b5; /* ea0100 */
+  --app-text-color: rgba(0, 0, 0, 0.9);
+}
+#ba_app{
+    position: absolute;
+    background-color: var(--app-bg-color);
+    left: 110px;
+    width: 300px;
+    height: auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 0.5px rgba(255, 255, 255, 0.3),
+                60px 70px 40px -55px rgba(0, 0, 0, 0.5)
+}
+#ba_header{
+    position: relative;
+    margin-top: 20px;
+}
+.ba_header_left img{
+    width: 10%;
+    position: relative;
+    margin-top: 5px;
+}
+div > i.fa{
+    position: relative;
+    top: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+    line-height: 40px;
+}
